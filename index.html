@@ -1,43 +1,71 @@
-<!doctype html>
-<html lang="he" dir="rtl">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Party Games – תמיכה</title>
-    <meta name="description" content="עמוד תמיכה לאפליקציית Party Games" />
-    <style>
-      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; background: #f6f7fb; color: #111; }
-      .wrap { max-width: 720px; margin: 0 auto; padding: 28px 16px; }
-      .card { background: #fff; border-radius: 16px; padding: 22px; box-shadow: 0 6px 20px rgba(0,0,0,.06); }
-      h1 { margin: 0 0 8px; font-size: 28px; }
-      p { margin: 10px 0; line-height: 1.55; }
-      .btn { display: inline-block; margin-top: 14px; padding: 12px 16px; border-radius: 12px; text-decoration: none; background: #2563eb; color: #fff; font-weight: 600; }
-      .muted { color: #555; font-size: 14px; margin-top: 14px; }
-      .footer { margin-top: 14px; font-size: 13px; color: #666; }
-      code { background: #f1f5f9; padding: 2px 6px; border-radius: 8px; }
-    </style>
-  </head>
-  <body>
-    <div class="wrap">
-      <div class="card">
-        <h1>Party Games – תמיכה</h1>
-        <p>
-          נתקלת בבאג, בעיית התחברות, פרסומת שלא עובדת, או משהו שיכול להשתפר?
-          שלח/י לנו דיווח קצר ונחזור אליך בהקדם.
-        </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Party Games</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeIL2mYX_KRAFg2osIvMbLtTQ5xfHae3L6cNaHmjrWvdUiIyg/viewform?usp=header" target="_blank" rel="noopener">
-          פתיחת פנייה / דיווח על בעיה
-        </a>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont;
+      background: url("background.jpg") center / cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-        <p class="muted">
-          מומלץ לצרף: דגם מכשיר, גרסת מערכת, ומה בדיוק קרה (ובאיזה משחק).
-        </p>
+    .card {
+      background: rgba(0, 0, 0, 0.55);
+      padding: 32px 24px;
+      border-radius: 22px;
+      width: 90%;
+      max-width: 360px;
+      text-align: center;
+      color: white;
+    }
 
-        <div class="footer">
-          <p>לצורכי אימות פרסום: <code>/app-ads.txt</code> מוגדר בדומיין זה.</p>
-        </div>
-      </div>
-    </div>
-  </body>
+    h1 {
+      margin-bottom: 24px;
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+
+    a {
+      display: block;
+      margin: 12px 0;
+      padding: 14px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 600;
+      background: #ffffff;
+      color: #111;
+    }
+
+    a.secondary {
+      background: transparent;
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.6);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>PARTY GAMES</h1>
+
+    <a href="/app">
+      Download on App Store
+    </a>
+
+    <a class="secondary" href="https://your-support-form-link">
+      Support
+    </a>
+
+    <a class="secondary" href="/privacy.html">
+      Privacy Policy
+    </a>
+  </div>
+</body>
 </html>
